@@ -1,0 +1,62 @@
+﻿@page "/"
+
+<div class="cyber-terminal">
+    <div class="terminal-header">
+        <div class="status-bar">
+            <span class="status-dot green"></span>
+            <span class="status-dot yellow"></span>
+            <span class="status-dot red"></span>
+            <span class="terminal-title">IanPortfolio</span>
+        </div>
+    </div>
+
+    <div class="terminal-body">
+        
+        <div class="terminal-panel profile-panel">
+            <div class="terminal-header-bar">
+                <span class="panel-icon">👤</span>
+                <span>Portfolio Profile</span>
+            </div>
+            
+            <div class="terminal-content">
+                <div class="avatar-stack">
+                    <img src="https://i.imghippo.com/files/yeo5302NO.jpg" 
+                         alt="Ian Elfred Maquilan" class="avatar-img" />
+                    <div class="avatar-glow"></div>
+                </div>
+                
+                <div class="user-info">
+                    <h1 class="username">Ian Elfred Maquilan</h1>
+                    <div class="user-title">BS Information Technology</div>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="terminal-panel command-panel">
+            <div class="terminal-header-bar">
+                <span class="panel-icon">📖</span>
+                <span>About me</span>
+            </div>
+            
+            <div class="command-output paragraph-mode">
+                <p class="terminal-text">
+                    Hello! I'm Ian Elfred L. Maquilan, a 20-year-old second-year BSIT student from 
+                    Poblacion, Medellin, Cebu. Passionate about programming, web development, and 
+                    technology that makes life easier.
+                </p>
+                <p class="terminal-text">
+                    Currently building skills in Blazor, C#, CSS, and modern web technologies. 
+                    Dedicated to continuous learning and creating useful systems for the future.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    protected override void OnInitialized()
+    {
+      
+    }
+}
